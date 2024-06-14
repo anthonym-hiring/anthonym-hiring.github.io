@@ -1,5 +1,5 @@
-/*jslint es6:true*/
 
+// for navbar
 const header = document.querySelector(".navbar")
 
 window.onscroll = function() {
@@ -12,3 +12,12 @@ window.onscroll = function() {
     }
 }
 
+
+
+// for contact copy buttons
+$(document).ready(function() {
+  $('[data-clipboard-text]').on('click', function() {
+    const text = $(this).attr('data-clipboard-text');
+    navigator.clipboard.writeText(text);
+  });
+});

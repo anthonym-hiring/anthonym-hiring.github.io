@@ -80,3 +80,10 @@
     background-color: #808080;
     text-align: center;
 }
+
+
+.btn-primary {
+  background-color: #008000;
+  border-color: #000;
+}
+

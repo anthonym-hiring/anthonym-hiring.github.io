@@ -4,7 +4,7 @@
     <title>Portfolio Website-Anthony</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+    
     <!-- linking css file -->
     <link rel="stylesheet" href="style.css">
     
@@ -15,9 +15,8 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
     
-    <!-- link to projects -->
-    
-    
+    <!-- clipboard -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js"></script>
     
 </head>
 
@@ -30,10 +29,10 @@
     <!-- Add class of bg-light to nav element -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Anthony Masingale</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            <a class="navbar-brand" href="#about">Anthony Masingale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+                </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
@@ -49,13 +48,12 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
 
 
     <!-- main banner -->
@@ -69,7 +67,6 @@
             </div>
         </div>
     </section>
-
 
 
     <!-- about section -->
@@ -113,8 +110,12 @@ effective analytics solutions, or staying up-to-date with the latest advancement
 in artificial intelligence and natural language processing, I am confident that a
 career in data science will offer me a dynamic and rewarding environment where I
 can grow professionally while making a positive impact.
-                    </p>
+                    </p>                                     
                 </div>
+                <br><br>
+                <a href="images/resumeTest.pdf" download="Resume.pdf">
+                    <button type="button" class="btn btn-primary">Download Resume</button>
+                </a>   
             </div>
         </div>
     </section>
@@ -217,6 +218,7 @@ insights from data.
         </div>
     </section>
 
+    
     <!-- portfolio section-->
     <section class="section" id="portfolio">
         <div class="container mt-3">
@@ -224,12 +226,12 @@ insights from data.
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/gis.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">GIS Mapping</h4>
-                            <p class="card-text">   text </p>
+                            <p class="card-text">   Several examples utilizing ArcGIS to create base maps, perform spatial analysis, and regression analysis. Additionally, about 20 hours of certification from ESRI using ArcGIS software.</p>
                             <div class="text-center">
-                                <a href="https://anthonym-hiring.github.io/ArcGIS%20Mapping/" class="btn btn-success">Link</a>
+                                <a href="https://anthonym-hiring.github.io/ArcGIS Mapping/" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -237,12 +239,12 @@ insights from data.
 
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/Website.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">WebPage Creation</h4>
                             <p class="card-text">Using Brackets IDE utilizing HTML, CSS, and JavaScript to create this website.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://anthonym-hiring.github.io/" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -250,12 +252,12 @@ insights from data.
 
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage3.jpeg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/IUCN.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Redlist Database Project</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">This project looks to import, clean, and database the International Union for Conservation of Nature (IUCN) Red List of Threatened Species for analysis.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://anthonym-hiring.github.io/IUCN/" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -265,10 +267,10 @@ insights from data.
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/professionalWriting.png" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Professional Writing Skills</h4>
-                            <p class="card-text">Examples of professional writing skills including a review on the evoultionary status of avians and the environmental complications of coniferous forests.</p>
+                            <h4 class="card-title">Professional Writing and Presentation</h4>
+                            <p class="card-text">Examples of professional writing and presentation skills, including a review on the evoultionary status of avians and the environmental complications of coniferous forests.</p>
                             <div class="text-center">
                                 <a href="https://anthonym-hiring.github.io/Professional Writing/" class="btn btn-success">Link</a>
                             </div>
@@ -281,7 +283,7 @@ insights from data.
                         <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Alzheimers Database Analysis</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Utilizing the National Alzheimer's Coordinating Center (NACC) database to investigate the specific physiological and environmental factors that contribute to early-onset Alzheimer's disease.  </p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -294,7 +296,7 @@ insights from data.
                         <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Rodent Aging Behavioral Studies</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Performing as technician and data analyst in the publication of several studies on cognitive decline and mitochondial function on aging mice. </p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -302,7 +304,9 @@ insights from data.
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+    
     
     <!-- contact section-->
     <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
@@ -313,11 +317,25 @@ insights from data.
                 <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
                 <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Oklahoma+City&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="my-codefor-googlemap" href="https://kbj9qpmy.com/hrn" id="get-map-data">Hosting Right Now</a><style>#embed-map-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
             </div>
-
             <div class="col-lg-6">
-                <!-- form fields -->
-                
-                <form>
+                <ul class="list-group list-group-flush">                    
+                    <h2><br> Email</h2>
+                    <h4 class="list-group-item"> anthonym.hiring@protonmail.com
+                        <button type="button" class="btn btn-success" data-toggle="tooltip" title="Copy link to clipboard" data-clipboard text="anthonym.hiring@protonmail.com" >Copy</button>
+                     </h4>
+                    <h4 class="list-group-item"> anthony-masingale@ouhsc.edu
+                        <button type="button" class="btn btn-success" data-toggle="tooltip" title="Copy link to clipboard" data-clipboard text="anthony-masingale@ouhsc.edu">Copy</button>
+                     </h4>
+                    <h4 class="list-group-item"> amasinga@asu.edu
+                        <button type="button" class="btn btn-success" data-toggle="tooltip" title="Copy link to clipboard" data-clipboard text="amasinga@asu.edu">Copy</button>
+                     </h4>
+                    <h2>Phone</h2>
+                    <h4 class="list-group-item">(405) 862-5391
+                        <button type="button" class="btn btn-success" data-toggle="tooltip" title="Copy link to clipboard" data-clipboard text="4058625391">Copy</button>
+                    </h4>                
+                </ul>                 
+<!-- This is the old contact form, might keep
+                    <form>
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
@@ -327,30 +345,12 @@ insights from data.
                     </form>
                     <button type="button" class="btn btn-success mt-3">Contact Me</button>
                     
-                
-
+                -->
             </div>
         </div>
     </section>
-    
-        
-  
-
-  <!-- Alternative Contact Methods -->
-  <p>If you prefer to contact me via other means, my details
-are below:</p>
-  <ul>
-    <li>Email: [your email address]</li>
-    <li>Phone: [your phone number]</li>
-    <li>Address: [your physical address]</li>
-  </ul>
-</div>
-        
-        
-        
-        
-        
-        
+     
+   
     <!-- footer section-->
     <footer class="container-fluid footer" id="footer">
         <!-- social media icons -->
@@ -364,15 +364,11 @@ are below:</p>
     </footer>
 
 
-        
-        
-      
-        
-        
     
-
+    
+    
     <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script> 
+    <script src="script.js"></script> 
 
 
 
