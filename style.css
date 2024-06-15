@@ -81,3 +81,23 @@
     text-align: center;
 }
 
+.copy-link-btn {
+    width: 40px; /* set the width of the button */
+    height: 20px; /* set the height of the button */
+    border-radius: 3px; /* add rounded edges */
+    background-color: #198754; /* initial background color is a dark green */
+    color: #fff; /* text color is white */
+    border: none; /* add some padding inside the button */
+    font-size: 12px; /* set the font size of the button text */
+    cursor: pointer; /* change the mouse cursor to a pointing hand when hovering over the button */
+    text-align: center;
+}
+
+.copy-link-btn:hover {
+  background-color: #157347; /* change the background color to a lighter green on hover */
+}
+
+
+
+
+
