@@ -1,7 +1,6 @@
 
 // for navbar
 const header = document.querySelector(".navbar")
-
 window.onscroll = function() {
     var top = window.scrollY;
     if(top >=100) {
@@ -13,11 +12,30 @@ window.onscroll = function() {
 }
 
 
-
-// for contact copy buttons
-$(document).ready(function() {
-  $('[data-clipboard-text]').on('click', function() {
-    const text = $(this).attr('data-clipboard-text');
-    navigator.clipboard.writeText(text);
-  });
+// scripts to run copy text to clipboard
+var copyButton = document.getElementById('copy-button1');
+copyButton.addEventListener('click', function() {
+var textToCopy = 'anthony-masingale@ouhsc.edu';
+navigator.clipboard.writeText(textToCopy);
+alert('Text has been copied to the clipboard!');
 });
+var copyButton = document.getElementById('copy-button2');
+copyButton.addEventListener('click', function() {
+var textToCopy = 'anthony-masingale@ouhsc.edu';
+navigator.clipboard.writeText(textToCopy);
+alert('Text has been copied to the clipboard!');
+});        
+var copyButton = document.getElementById('copy-button3');
+copyButton.addEventListener('click', function() {
+var textToCopy = 'anthony-masingale@ouhsc.edu';
+navigator.clipboard.writeText(textToCopy);
+alert('Text has been copied to the clipboard!');
+});         
+var copyButton = document.getElementById('copy-button4');
+copyButton.addEventListener('click', function() {
+var textToCopy = 'anthony-masingale@ouhsc.edu';
+navigator.clipboard.writeText(textToCopy);
+alert('Text has been copied to the clipboard!');
+});
+         
+                    
